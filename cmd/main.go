@@ -32,7 +32,7 @@ func do(base *prolog.Interpreter) {
 	if err != nil {
 		return
 	}
-	fmt.Println(userInput)
+
 	provider.ShowResult(
 		base,
 		userInput,
